@@ -30,5 +30,4 @@ public class Moto {
 		cilindrada = c;
 	}
 	
-	//prueba de sincronizar
 }
