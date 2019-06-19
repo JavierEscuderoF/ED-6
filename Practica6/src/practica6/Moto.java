@@ -29,4 +29,6 @@ public class Moto {
 	public void setCilindrada(int c) {
 		cilindrada = c;
 	}
+	
+	//prueba de sincronizar
 }
