@@ -20,6 +20,38 @@ public class Coche {
 		fabricante = f;
 	}
 	
+	public String getMatricula() {
+		return matricula;
+	}
+
+	public void setMatricula(String m) {
+		matricula = m;
+	}
+
+	public String getCombustible(){
+		return combustible;
+	}
+
+	public void setCombustible(String c){
+		combustible = c;
+	}	
+
+	public String getModelo(){
+		return modelo;
+	}
+
+	public void setModelo(String mo){
+		modelo = mo;
+	}
+
+	public String getFabricante(){
+		return fabricante;
+	}
+
+	public void setFabricante(String f){
+		fabricante = f;
+	}
+	
 	static final double CONSTANTE_CONSUMO_GASOLINA = 1.337;
 
 	static final double CONSTANTE_CONSUMO_DIESEL = 1.052;
