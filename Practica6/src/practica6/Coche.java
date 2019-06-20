@@ -20,6 +20,42 @@ public class Coche {
 		fabricante = f;
 	}
 
+	public String metodoA()
+	{
+		String resultadoGasolina = "";
+		if(combustible == "Gasolina")
+		{
+			String modelo = "Corsa";
+			String fabricante = "Opel";
+			System.out.println("es un " + modelo + fabricante + " y gasta " + CONSTANTE_CONSUMO_GASOLINA + " euros por litro.");
+		}
+		return resultadoGasolina;
+	}
+
+	public String metodoB()
+	{
+		String resultadoDiesel = "";
+		if(combustible == "Diesel")
+		{
+			String modelo = "Ibiza";
+			String fabricante = "Seat";
+			System.out.println("es un " + modelo + fabricante + " y gasta " + CONSTANTE_CONSUMO_DIESEL + " euros por litro.");
+		}
+		return resultadoDiesel;
+	}
+
+	public String metodoC()
+	{
+		String resultadoHibrido = "";
+		if(combustible == "Híbrido")
+		{
+			String modelo = "Ibiza";
+			String fabricante = "Seat";
+			System.out.println("es un " + modelo + fabricante + " y no necesita combustible.");
+		}
+		return resultadoHibrido;
+	}
+	
 	public String consultaCoche() {
 		String resultado = "";
 		if (combustible == "Gasolina") {
