@@ -60,13 +60,13 @@ public class Coche {
 		String resultado = "";
 		if (combustible == "Gasolina") {
 			resultado += "El coche con matricula " + matricula + " ";
-			resultado += metodoA(modelo, fabricante);
+			resultado += gasolina();
 		} else if (combustible == "Diesel") {
 			resultado += "El coche con matricula " + matricula + " ";
-			resultado += metodoB(modelo, fabricante);
+			resultado += diesel();
 		} else if (combustible == "Híbrido") {
 			resultado += "El coche con matricula " + matricula + " ";
-			resultado += metodoC(modelo, fabricante);
+			resultado += hibrido();
 		} else {
 			resultado += "El coche con matricula " + matricula + " ";
 			resultado += "no dispone de información";
