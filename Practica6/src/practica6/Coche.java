@@ -20,7 +20,7 @@ public class Coche {
 		fabricante = f;
 	}
 
-	public String metodoA()
+	public String gasolina()
 	{
 		String resultadoGasolina = "";
 		if(combustible == "Gasolina")
