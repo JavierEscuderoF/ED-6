@@ -2,33 +2,33 @@ package practica6;
 
 public class Coche {
 	String matricula;
-	String atrib;
+	String combustible;
 	String modelo;
 	String fabricante;
 
 	public Coche() {
 		matricula = "";
-		atrib = "";
+		combustible = "";
 		modelo = "";
 		fabricante = "";
 	}
 
 	public Coche(String m, String c, String mo, String f) {
 		matricula = m;
-		atrib = c;
+		combustible = c;
 		modelo = mo;
 		fabricante = f;
 	}
 
 	public String metodo1() {
 		String resultado = "";
-		if (atrib == "Gasolina") {
+		if (combustible == "Gasolina") {
 			resultado += "El coche con matricula " + matricula + " ";
 			resultado += metodoA(modelo, fabricante);
-		} else if (atrib == "Diesel") {
+		} else if (combustible == "Diesel") {
 			resultado += "El coche con matricula " + matricula + " ";
 			resultado += metodoB(modelo, fabricante);
-		} else if (atrib == "Híbrido") {
+		} else if (combustible == "Híbrido") {
 			resultado += "El coche con matricula " + matricula + " ";
 			resultado += metodoC(modelo, fabricante);
 		} else {
