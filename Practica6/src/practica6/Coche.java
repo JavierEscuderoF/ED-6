@@ -32,7 +32,7 @@ public class Coche {
 		return resultadoGasolina;
 	}
 
-	public String metodoB()
+	public String diesel()
 	{
 		String resultadoDiesel = "";
 		if(combustible == "Diesel")
@@ -44,7 +44,7 @@ public class Coche {
 		return resultadoDiesel;
 	}
 
-	public String metodoC()
+	public String hibrido()
 	{
 		String resultadoHibrido = "";
 		if(combustible == "Híbrido")
@@ -73,4 +73,6 @@ public class Coche {
 		}
 		return resultado;
 	}
+
+
 }
