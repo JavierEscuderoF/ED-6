@@ -20,7 +20,7 @@ public class Coche {
 		fabricante = f;
 	}
 
-	public String metodo1() {
+	public String consultaCoche() {
 		String resultado = "";
 		if (combustible == "Gasolina") {
 			resultado += "El coche con matricula " + matricula + " ";
