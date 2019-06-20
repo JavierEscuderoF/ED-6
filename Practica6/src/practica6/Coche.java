@@ -19,6 +19,10 @@ public class Coche {
 		modelo = mo;
 		fabricante = f;
 	}
+	
+	static final double CONSTANTE_CONSUMO_GASOLINA = 1.337;
+
+	static final double CONSTANTE_CONSUMO_DIESEL = 1.052;
 
 	public String gasolina()
 	{
